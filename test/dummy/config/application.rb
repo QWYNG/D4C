@@ -4,7 +4,7 @@ require 'rails/all'
 
 Bundler.require(*Rails.groups)
 
-D4C::Console.add_option "d4c" do
+D4C::Console.add_option :d4c do
   $ran_block = true
 end
 

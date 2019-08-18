@@ -8,10 +8,14 @@ module D4C
 
     def initialize(app, options = {})
       prepended_options.each do |option|
-        app.send(option.name + '=', options[option.name.to_sym])
+        app.send(setter_method(option.name), options[option.name.to_sym])
       end
 
       super
+    end
+
+    def setter_method(name)
+      name.to_s + '='
     end
   end
 end
