@@ -1,0 +1,11 @@
+---
+sudo: false
+language: ruby
+cache: bundler
+rvm:
+  - 2.6.3
+before_install:
+  - gem install bundler -v 1.17.2
+script:
+  - bundle exec rubocop
+  - bin/test

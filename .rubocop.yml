@@ -1,0 +1,17 @@
+AllCops:
+  Exclude:
+    - test/dummy/**/*
+    - vendor/**/*
+
+Metrics/LineLength:
+  Max: 160
+
+Documentation:
+  Enabled: false
+
+GlobalVars:
+  Enabled: false
+
+ClassAndModuleChildren:
+  Exclude:
+    - test/*
