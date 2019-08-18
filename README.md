@@ -42,7 +42,7 @@ module YourRailsApplication
 
 ### Note
 You need to put `D4C::Console.add_option` before YourRailsApplication module.  
-see also: https://guides.rubyonrails.org/configuring.html#running-code-before-rails
+see also: https://guides.rubyonrails.org/configuring.html
 
 ### Option Description
 you can set option description
