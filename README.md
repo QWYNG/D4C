@@ -1,4 +1,4 @@
-# D4C [![Build Status](https://travis-ci.org/QWYNG/baby_face.svg?branch=master)](https://travis-ci.org/QWYNG/baby_face)
+# D4C [![Build Status](https://travis-ci.org/QWYNG/D4C.svg?branch=master)](https://travis-ci.org/QWYNG/baby_face)
 Easy add options to Rails console
 
 ## Prerequisites
@@ -41,7 +41,7 @@ module YourRailsApplication
 ```
 
 ### Note
-You need to put `BabyFace::Console.add_option` before YourRailsApplication module.  
+You need to put `D4C::Console.add_option` before YourRailsApplication module.  
 see also: https://guides.rubyonrails.org/configuring.html#running-code-before-rails
 
 ### Option Description
