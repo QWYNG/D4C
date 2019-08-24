@@ -1,5 +1,6 @@
 # D4C [![Build Status](https://travis-ci.org/QWYNG/D4C.svg?branch=master)](https://travis-ci.org/QWYNG/baby_face)
-Easy add options to Rails console
+Easy add options to Rails console  
+[My blog](https://sasa5740.hatenablog.com/entry/2019/08/20/090000?_ga=2.202416785.1243811551.1566614707-1938314347.1562511586)
 
 ## Prerequisites
 - Rails >= 5.1.0 Application
